@@ -5,10 +5,10 @@ name: my test run
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
+  # push:
   # schedule:
     # - cron: "*/5 * * * *"
-  #workflow_dispatch: 
+  workflow_dispatch: 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "Trigger this on push ..."
+        run: echo "On runner dispatch"
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
