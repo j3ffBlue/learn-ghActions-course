@@ -12,6 +12,7 @@ jobs:
          uses: actions/setup-node@v5
          with:
             node-version: '22.x'
+       - run: node --trace-deprecation
        - run: npn install 
        - run: npn run build
        
