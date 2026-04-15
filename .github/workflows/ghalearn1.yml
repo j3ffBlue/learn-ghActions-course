@@ -12,5 +12,6 @@ jobs:
             python-version: '3.13'
         - run: mkdir -p /home/runner/work/learn-ghActions-course/learn-ghActions-course/scripts/
         - run: cd /home/runner/work/learn-ghActions-course/learn-ghActions-course/scripts/
+        - run: python myscript.py
             
       
