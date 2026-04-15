@@ -10,8 +10,7 @@ jobs:
         - uses: actions/setup-python@v6
           with:
             python-version: '3.13'
-        - run: mkdir -p /home/runner/work/learn-ghActions-course/learn-ghActions-course/scripts/
-        - run: cd /home/runner/work/learn-ghActions-course/learn-ghActions-course/scripts/
-        - run: python myscript.py
+        - run: cd /home/runner/work/learn-ghActions-course/
+        - run: ls
             
       
