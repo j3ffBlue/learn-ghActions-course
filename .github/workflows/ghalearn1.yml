@@ -11,7 +11,7 @@ jobs:
           with:
             python-version: '3.13'
         - run: echo $PWD
-        - run: cd .github
+        - run: cd .github/workflows/
         - run: ls -la
             
       
