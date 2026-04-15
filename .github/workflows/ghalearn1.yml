@@ -11,6 +11,6 @@ jobs:
           with:
             python-version: '3.13'
         - run: cd /home/runner/work/learn-ghActions-course/learn-ghActions-course/
-        - run: ls
+        - run: ls -la
             
       
