@@ -5,15 +5,11 @@ on: workflow_dispatch
 jobs:
    build:
       runs-on: ubuntu-latest
-      defaults:
-       run:
-         working-directory: scripts
       steps:
         - uses: actions/checkout@v6
         - uses: actions/setup-python@v6
           with:
             python-version: '3.13'
-        - run: | 
-             mkdir -p /home/runner/work/learn-ghActions-course/learn-ghActions-course/scripts
+        - run: mkdir -p /home/runner/work/learn-ghActions-course/learn-ghActions-course/scripts/
             
       
