@@ -1,0 +1,12 @@
+name: my first actions
+on: workflow_dispatch
+jobs:
+    greet: 
+      runs-on: ububuntu-latest
+      steps:
+        - name: checkout file
+          uses: actions/checkout@v6
+        - name: salutation
+          run: |
+             echo "hello jeffrey"
+             echo "learning is fun"
