@@ -2,7 +2,7 @@ name: my first actions
 on: workflow_dispatch
 jobs:
     greet: 
-      runs-on: ububuntu-latest
+      runs-on: ubuntu-22.04
       steps:
         - name: checkout file
           uses: actions/checkout@v6
